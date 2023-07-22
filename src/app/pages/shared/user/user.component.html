@@ -1,0 +1,24 @@
+<div class="main-container">
+    <div class="header">
+      <!--MAIN AREA-->
+     <div class="header__main" id="stickyHeader" [class.sticky]="sticky" #stickHeader>
+       <div class="header__left">
+         <a>
+           <h1>ChildTube</h1>
+         </a>
+        
+       </div>
+     </div>  <!--HEADER MAIN ENDS HERE-->
+  
+    </div>
+    <div class="body">
+       <div class="user-container" >
+         <div *ngFor="let user of [0,1,2,3]" class="avatar">
+            <img src="assets/images/child-avatar.png" alt="" width="150px" height="150px" (click)="userSelected()">
+            <p>User {{user+1}}</p>
+         </div>
+       </div>
+    </div>
+   
+</div>
+  

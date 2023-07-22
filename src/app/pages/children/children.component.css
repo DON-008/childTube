@@ -1,0 +1,23 @@
+.navbar
+{ 
+    background-color: #000000c4;
+}
+
+.navbar .navbar-brand
+{
+    margin-left: 40px;
+    height: 100%;
+    width: 100px;
+    color: var(--themered);
+    margin-bottom: 0;
+}
+
+.navbar-nav .nav-item .nav-link
+{
+    color: var(--themered);
+}
+ .child-home{
+    background-color: #000000;
+    overflow-x: hidden;
+ }
+

@@ -1,0 +1,11 @@
+.mat-dialog-container{
+    overflow-y: hidden !important;
+    
+}
+.mat-dialog-container .mat-dialog-actions{
+    padding: 0 !important;
+}
+.mat-mdc-dialog-container .mdc-dialog__surface{
+    display: none !important;
+    overflow-y: hidden !important;
+}

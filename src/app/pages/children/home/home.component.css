@@ -1,0 +1,121 @@
+.contain-fluid {
+    display: flex;
+    flex-direction: column;
+   /*BANNER ENDS*/
+}
+
+.contain-fluid .header__banner {
+    background-position: top center;
+    background-size: contain;
+    width: 100%;
+    /* position: absolute; */
+    height: 700px;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contain-fluid .header__banner h2 {
+    font-size: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 8rem;
+    color: lightgray;
+}
+.contain-fluid .header__banner .header__buttons {
+    display: flex;
+}
+.contain-fluid .header__banner .header__buttons button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.contain-fluid .header__banner .header__buttons button mat-icon {
+    transform: scale(1.25);
+}
+.contain-fluid .header__banner .header__buttons button.play-button span {
+    font-weight: 600;
+    font-size: 14px;
+}
+.contain-fluid .header__banner .header__buttons button.play-button mat-icon {
+    transform: scale(2.5);
+}
+.contain-fluid .header__banner .header__buttons button.more-button {
+    background-color: rgba(112, 113, 109, 0.7);
+}
+.contain-fluid .header__banner .header__buttons button.more-button mat-icon {
+    color: lightgray;
+}
+.contain-fluid .header__banner .header__buttons button.more-button span {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+    
+
+
+
+.carousel-inner
+{
+    height: 700px;
+}
+
+.carousel-inner .carousel-item img
+{
+    height: 700px;
+    object-fit: cover;
+}
+
+.carousel-caption h2
+{
+    color: #E50914;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.carousel-caption p 
+{
+    color: #ffffffe0;
+}
+
+.rowposter{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.rowimg
+{
+    max-height: 100px;
+    object-fit: contain;
+    width: 100%;
+    box-sizing: content-box;
+    transition: transform 450ms;
+    margin-right: 7px;
+}
+
+.rowimg:hover
+{
+    transform: scale(1.09);
+    cursor: pointer;
+}
+
+.largeposter{
+    max-height: 300px;
+}
+
+.rowposter::-webkit-scrollbar
+{
+    display: none;
+}

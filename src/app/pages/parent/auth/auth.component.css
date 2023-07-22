@@ -1,0 +1,53 @@
+.login-container{
+    background-image: linear-gradient(to top, rgb(0 0 0 / 79%), rgb(46 44 45 / 79%)), url('../../../../assets/images/loginbg.jpg');
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+}
+.login-container .header{
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.login-container .header h1{
+    color: var(--themered);
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 3%;
+    padding: 35px 0 35px 0;
+}
+.login-container .body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.login-container .body-container{
+    min-width: 40vw;
+    background-color: rgba(0,0,0,.75);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    min-height: 515px;
+    justify-content: center;
+    padding: 60px 68px 40px;
+}
+.login-container .body-container h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+.mat-mdc-raised-button.mat-mdc-button-base{
+    height: 36px !important;
+}
+
+  
+  .body-container .icon-button .icon {
+    width: 17px;
+  }

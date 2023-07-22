@@ -1,0 +1,14 @@
+.home-container{
+    background-image: url("src/assets/images/homebg.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-toolbar.mat-primary {
+    background: #c2185b00 !important; 
+  }
+  .mat-toolbar-single-row{
+    padding: 45px 35px !important;
+  }
